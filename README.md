@@ -19,6 +19,8 @@
   [Social Network API](https://github.com/lewisoutdoorllc/lewis_socialNetwork_API)
 
  Lewis Social Network API was built to be an API for a social network web application where users can share there thoughts, react to friends thoughts, and create a friends list. We used Express.js for the routing and a MongoDB database along with the Mongoose ODM. Moment.js was used for the date and timestamps. 
+
+  [Social Network API Video Walkthru](https://drive.google.com/file/d/1Y94Vg-X3X4IRICFg5aFIbelyOt01wqdb/view)
   
 # Installation
 
