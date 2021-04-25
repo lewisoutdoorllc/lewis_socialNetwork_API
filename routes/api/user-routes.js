@@ -8,7 +8,7 @@ const {
   deleteUserById,
   addFriend,
   removeFriend
-  //   deleteUserThoughtsByID
+//   deleteUserThoughtsByID
 } = require("../../controllers/users-controller");
 
 // Set up GET all and POST at /api/users

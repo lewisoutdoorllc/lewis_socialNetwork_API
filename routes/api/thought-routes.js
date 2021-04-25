@@ -9,10 +9,6 @@ const {
     deleteReactionById
 } = require('../../controllers/thoughts-controller');
 
-// router.route('/:pizzaId').post(addComment);
-
-// router.route('/:pizzaId/:commentId').delete(removeComment);
-
 router.route('/')
     .get(getAllThoughts)
     .post(createNewThought);
@@ -27,16 +23,5 @@ router.route('/:thoughtId/reactions')
 
 router.route('/:thoughtId/:reactionId')
     .delete(deleteReactionById);
-
-// router.route('/:pizzaId/:commentId')
-//     .delete(removeComment);
-
-// router
-//     .route('/:pizzaId/:commentId')
-//     .put(addReply)
-//     .delete(removeComment)
-
-// router.route('/:pizzaId/:commentId/:replyId')
-//     .delete(removeReply);
 
 module.exports = router;
